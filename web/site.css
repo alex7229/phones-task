@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    background-color: #fff;
+}
+body {
+    min-height:100%;
+    margin: auto;
+    width: 1000px;
+    background: #faf8ef;
+}
+.main-btn {
+    display: inline-block;
+    border-width: 0;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: #009933;
+    color: white;
+    text-align: center;
+    width: 140px;
+    cursor: pointer;
+}
+.container {
+    height: 900px;
+    margin: auto;
+    width: 900px;
+    padding-left: 30px;
+    background: #faf8ef;
+    border: 1px solid black;
+}
+.header {
+    color: red;
+    position: relative;
+    text-align: center;
+}
+form.login {
+    position: relative;
+    margin: auto;
+    width: 300px;
+}
+form.login label, form.login input {
+    display: block;
+    width: 300px;
+}
+form.login button {
+    float: right;
+}
+.link {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.link.hide {
+    display: none;
+}
+.column {
+    width: 290px;
+    position: relative;
+    display: inline-block;
+}
+.column.left {
+    float: left
+}
+.column.right {
+    float: right
+}
+.phonebookUserName {
+    display: inline-block;
+}
+.error {
+    color: brown;
+}
+input.contact, select.contact {
+    position: absolute;
+    left: 80px
+}
+#myContactSubmit {
+    position: relative;
+    left: 750px;
+    top: 20px;
+}
+#isVisible {
+    position: relative;
+    bottom:45px;
+    left:700px;
+}
+#userData {
+    position: relative;
+}
+.clear {
+    clear: both;
+}

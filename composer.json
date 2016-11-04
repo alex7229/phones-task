@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {"app\\": ""}
+  },
+  "require": {
+    "paragonie/random_compat": "^2.0"
+  }
+}
