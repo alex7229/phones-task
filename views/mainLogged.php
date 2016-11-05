@@ -6,8 +6,8 @@ echo '<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Phones main page</title>
     <link href="/site.css" rel="stylesheet">
-    <script src="frontend/jquery-3.1.1.js"></script>
-    <script src="frontend/main.js"></script>
+    <script src="frontend/libs/jquery-3.1.1.js"></script>
+    <script src="frontend/application/main.js"></script>
 </head>
 <body>
     <h1 class="header">Phonebook</h1>
